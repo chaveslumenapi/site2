@@ -7,7 +7,7 @@ trait ApiResponser{
 
     public function successResponse($data, $code = Response::HTTP_OK)
     {
-        return response()->json(['userdata' => $data, 'site' => 2], $code);
+        return response()->json(['data' => $data, 'site' => 2], $code);
     }
 
     
